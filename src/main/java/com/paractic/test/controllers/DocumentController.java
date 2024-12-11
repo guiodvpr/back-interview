@@ -14,6 +14,7 @@ import jakarta.validation.constraints.NotBlank;
 
 @RestController
 @RequestMapping("/api")
+@Validated
 public class DocumentController {
 
     Person person = new Person(
